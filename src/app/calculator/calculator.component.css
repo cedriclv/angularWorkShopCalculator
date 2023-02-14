@@ -1,0 +1,18 @@
+.btn-inputs,
+.btn-operators,
+.results{
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+}
+
+.btn-input,
+.btn-operator,
+.result{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    margin: auto;
+    padding: 1rem;
+}

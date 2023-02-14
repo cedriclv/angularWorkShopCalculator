@@ -1,0 +1,28 @@
+<div>
+    <h1>Calculator</h1>
+</div>
+<div>
+    <h2>Click for random inputs</h2>
+    <div class="btn-inputs">
+        <div>
+            <button class="btn-input btn btn-light" type="submit" (click)="generateRandomOne()">{{ numberOne }}</button>
+        </div>
+        <div>
+            <button class="btn-input btn btn-light" type="submit" (click)="generateRandomTwo()">{{ numberTwo }}</button>
+        </div>        
+    </div>
+</div>
+<div >
+    <h2>Choose operator</h2>
+    <div class="btn-operators">
+        <button class="btn-operator btn btn-secondary" type="submit" (click)="add()">+</button>
+        <button class="btn-operator btn btn-secondary" type="submit" (click)="substract()">-</button>
+        <button class="btn-operator btn btn-secondary" type="submit" (click)="multiply()">*</button>
+        <button class="btn-operator btn btn-secondary" type="submit" (click)="divide()">/</button>
+    </div>
+</div>
+
+<div>
+    <h2>Get the live result</h2>
+    <div class="results "><div class="result btn btn-dark">{{result}}</div></div>
+</div>
